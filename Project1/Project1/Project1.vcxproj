@@ -23,6 +23,7 @@
     <ProjectGuid>{F544A7CF-1FB3-492D-94FD-C1CD5A2A2CCA}</ProjectGuid>
     <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>Project1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -114,9 +115,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="..\Release\in.txt" />
-  </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source.cpp" />
   </ItemGroup>
